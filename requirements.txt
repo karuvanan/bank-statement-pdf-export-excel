@@ -1,0 +1,15 @@
+pypdfium2
+Pillow
+openpyxl
+gradio
+httpx
+anyio
+huggingface-hub
+packaging
+pyyaml
+typer
+typing-extensions
+fsspec
+annotated-doc
+click
+h11

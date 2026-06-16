@@ -1,0 +1,90 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.env
+config.local.*
+settings.local.*
+secrets.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Real customer / financial documents and generated exports
+*.pdf
+*.rar
+*.zip
+*.7z
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+outputs/
+
+# Databases and backups
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.bak
+*.backup
+*.dump
+*.sql
+database/backups/
+database/*.sqlite
+database/*.sqlite3
+database/*.db
+database/*.db3
+database/*.bak
+database/*.backup
+!database/
+!database/schema.sql
+
+# Logs, cache, temp and OCR/render working folders
+logs/
+*.log
+*.tmp
+*.temp
+tmp/
+tmp_pdf_images/
+.cache/
+.gradio/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Node / PHP dependencies
+node_modules/
+vendor/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+composer.lock
+
+# IDE and operating system files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Gradio / Hugging Face local cache
+.huggingface/
+gradio_cached_examples/
