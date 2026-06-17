@@ -164,7 +164,7 @@ def parse_page(payload: dict[str, Any]) -> tuple[list[dict[str, Any]], list[dict
         elif 0.24 < rc <= 0.32:
             if normalize_date(line.text):
                 value_date_lines.append(line)
-        elif 0.28 <= rx <= 0.62:
+        elif 0.26 <= rx <= 0.62:
             desc_lines.append(line)
         elif 0.60 <= rc <= 0.74:
             amount_lines.append(line)
